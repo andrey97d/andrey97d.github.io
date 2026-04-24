@@ -14,4 +14,18 @@ theme:
 
 
 nav:
-- Главная: index.md
+  - Главная: index.md
+  - Docker:
+    - Обзор: docker/index.md
+    - Сети: docker/network.md
+  - Linux:
+    - Обзор: linux/index.md
+  - Git:
+    - Обзор: git/index.md
+  - Kubernetes:
+    - Обзор: kubernetes/index.md
+  - Redfish / BMC:
+    - Обзор: redfish/index.md
+  - Шпаргалки:
+    - Обзор: cheatsheets/index.md
+    
