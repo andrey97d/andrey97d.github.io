@@ -4,4 +4,32 @@
          <loc>https://docs.devopslearning.ru/</loc>
          <lastmod>2026-04-24</lastmod>
     </url>
+    <url>
+         <loc>https://docs.devopslearning.ru/cheatsheets/</loc>
+         <lastmod>2026-04-24</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.devopslearning.ru/docker/</loc>
+         <lastmod>2026-04-24</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.devopslearning.ru/docker/network/</loc>
+         <lastmod>2026-04-24</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.devopslearning.ru/git/</loc>
+         <lastmod>2026-04-24</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.devopslearning.ru/kubernetes/</loc>
+         <lastmod>2026-04-24</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.devopslearning.ru/linux/</loc>
+         <lastmod>2026-04-24</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.devopslearning.ru/redfish/</loc>
+         <lastmod>2026-04-24</lastmod>
+    </url>
 </urlset>
