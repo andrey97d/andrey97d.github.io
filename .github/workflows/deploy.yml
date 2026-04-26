@@ -38,3 +38,15 @@ jobs:
           rsync -avz --delete \
             -e "ssh -i ~/.ssh/deploy_key" \
             site/ ${{ secrets.VPS_USER }}@${{ secrets.VPS_HOST }}:/var/www/docs/
+
+      - name: Purge Cloudflare cache
+
+        run: |
+
+          curl -X POST "https://api.cloudflare.com/client/v4/zones/${{ secrets.CF_ZONE_ID }}/purge_cache" \
+
+            -H "Authorization: Bearer ${{ secrets.CF_API_TOKEN }}" \
+
+            -H "Content-Type: application/json" \
+
+            --data '{"purge_everything":true}'
