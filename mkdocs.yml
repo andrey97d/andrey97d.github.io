@@ -20,7 +20,7 @@ theme:
 nav:
   - Главная: index.md
   - How-to:
-    - Обзор: how-to/index.md
+    - Обзор: how-to/create-website.md
   - Docker:
     - Обзор: docker/index.md
     - Сети: docker/network.md
