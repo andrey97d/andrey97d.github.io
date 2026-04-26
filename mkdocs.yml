@@ -20,7 +20,9 @@ theme:
 nav:
   - Главная: index.md
   - How-to:
-    - Обзор: how-to/create-website.md
+    - Обзор: how-to/index.md
+    - Настраиваем Nginx: how-to/nginx.md
+    - Создаем свою страницу: how-to/create-website.md
   - Docker:
     - Обзор: docker/index.md
     - Сети: docker/network.md
