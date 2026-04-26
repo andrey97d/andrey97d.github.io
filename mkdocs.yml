@@ -6,11 +6,15 @@ theme:
   name: material
   language: ru
   features:
+  features:
     - navigation.tabs
     - navigation.sections
+    - navigation.top
+    - content.code.copy
+    - content.code.annotate
+    - content.tabs.link
     - search.suggest
     - search.highlight
-    - content.code.copy
 
 
 nav:
