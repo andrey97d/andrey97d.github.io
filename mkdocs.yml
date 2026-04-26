@@ -19,6 +19,8 @@ theme:
 
 nav:
   - Главная: index.md
+  - How-to:
+    - Обзор: how-to/index.md
   - Docker:
     - Обзор: docker/index.md
     - Сети: docker/network.md
