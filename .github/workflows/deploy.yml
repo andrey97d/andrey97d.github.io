@@ -45,3 +45,6 @@ jobs:
           -H "Authorization: Bearer ${{ secrets.CF_API_TOKEN }}" \
           -H "Content-Type: application/json" \
           --data '{"purge_everything":true}'
+      - name: Restart nginx
+        run: |
+          ssh -i ~/.ssh/deploy_key ${{ secrets.VPS_USER }}@${{ secrets.VPS_HOST }} "sudo systemctl reload nginx"
