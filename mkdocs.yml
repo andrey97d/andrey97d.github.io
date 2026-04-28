@@ -30,7 +30,7 @@ nav:
     - Обзор: linux/index.md
   - Git:
     - Обзор: git/index.md
-    - Lifehack: git/lifehack.md
+    - Lifehack: git/life-hack.md
   - Kubernetes:
     - Обзор: kubernetes/index.md
   - Redfish / BMC:
