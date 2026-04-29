@@ -1,11 +1,11 @@
-site_name: My Docs
+site_name: Engineer's Handbook
 site_url: https://docs.devopslearning.ru
 
 
 theme:
   name: material
   language: ru
-  features:
+  logo: assets/images/connection.png
   features:
     - navigation.tabs
     - navigation.sections
@@ -25,7 +25,10 @@ nav:
     - Создаем свою страницу: how-to/create-website.md
   - Docker:
     - Обзор: docker/index.md
+    - Dockerfile: docker/dockerfile.md
     - Сети: docker/network.md
+    - Volume: docker/volume.md
+    - Compose: docker/compose.md
   - Linux:
     - Обзор: linux/index.md
   - Git:
@@ -36,6 +39,7 @@ nav:
       - Синхронизация: git/sync.md
       - История и откаты: git/history.md
       - Продвинутое: git/advanced.md
+      - Хаки: git/life-hack.md
   - Kubernetes:
     - Обзор: kubernetes/index.md
   - Redfish / BMC:
