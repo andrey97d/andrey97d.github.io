@@ -40,6 +40,9 @@ nav:
     - Обзор: kubernetes/index.md
   - Redfish / BMC:
     - Обзор: redfish/index.md
-  - Шпаргалки:
-    - Обзор: cheatsheets/index.md
+  - Python:
+    - Тест: python/index.md
+  - Excel:
+    - Шпаргалка: excel/cheatsheet.md
+  
     
