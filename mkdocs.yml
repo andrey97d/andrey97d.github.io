@@ -6,6 +6,7 @@ copyright: >
 
 theme:
   name: material
+  logo: assets/images/connection.png
   language: ru
   features:
   features:
