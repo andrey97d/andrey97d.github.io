@@ -1,11 +1,13 @@
 site_name: Engineer's Handbook
 site_url: https://docs.devopslearning.ru
 
+copyright: >
+  © 2026 Андрей Дерюгин - DevOps Engineer.
 
 theme:
   name: material
   language: ru
-  logo: assets/images/connection.png
+  features:
   features:
     - navigation.tabs
     - navigation.sections
@@ -15,6 +17,9 @@ theme:
     - content.tabs.link
     - search.suggest
     - search.highlight
+
+extra:
+  generator: false
 
 
 nav:
