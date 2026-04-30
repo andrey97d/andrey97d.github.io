@@ -9,7 +9,6 @@ theme:
   logo: assets/images/connection.png
   language: ru
   features:
-  features:
     - navigation.tabs
     - navigation.sections
     - navigation.top
@@ -48,6 +47,12 @@ nav:
       - Хаки: git/life-hack.md
   - Kubernetes:
     - Обзор: kubernetes/index.md
+  - CI/CD: 
+    - Обзор: cicd/index.md
+  - Nginx:
+    - Обзор: nginx/index.md
+  - Базы данных:
+    - Обзор: database/index.md
   - Redfish / BMC:
     - Обзор: redfish/index.md
   - Python:
