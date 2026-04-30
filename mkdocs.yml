@@ -49,6 +49,8 @@ nav:
     - Обзор: kubernetes/index.md
   - CI/CD: 
     - Обзор: cicd/index.md
+  - Terraform:
+    - Обзор: terra/index.md
   - Nginx:
     - Обзор: nginx/index.md
   - Базы данных:
