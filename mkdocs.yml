@@ -63,10 +63,9 @@ nav:
       - Обзор: data/database/index.md
     - Excel:
       - Шпаргалка: data/excel/cheatsheet.md
-
-  
-  - Redfish / BMC:
-    - Обзор: redfish/index.md
+  - Other:
+    - Redfish / BMC:
+      - Обзор: other/redfish/index.md
 
 
   
