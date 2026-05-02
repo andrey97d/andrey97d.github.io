@@ -28,38 +28,46 @@ nav:
     - Обзор: how-to/index.md
     - Настраиваем Nginx: how-to/nginx.md
     - Создаем свою страницу: how-to/create-website.md
-  - Docker:
-    - Обзор: docker/index.md
-    - Dockerfile: docker/dockerfile.md
-    - Сети: docker/network.md
-    - Volume: docker/volume.md
-    - Compose: docker/compose.md
-  - Linux:
-    - Обзор: linux/index.md
-  - Git:
-      - Шпаргалка: git/cheatsheet.md
-      - Workflow: git/workflow.md
-      - Ветки: git/branches.md
-      - Изменения: git/changes.md
-      - Синхронизация: git/sync.md
-      - История и откаты: git/history.md
-      - Продвинутое: git/advanced.md
-      - Хаки: git/life-hack.md
-  - Kubernetes:
-    - Обзор: kubernetes/index.md
-  - CI/CD: 
-    - Обзор: cicd/index.md
-  - Terraform:
-    - Обзор: terra/index.md
-  - Nginx:
-    - Обзор: nginx/index.md
-  - Базы данных:
-    - Обзор: database/index.md
+  - DevOps Core:
+    - Linux :
+      - Обзор: devops-core/linux/index.md
+    - Git:
+      - Шпаргалка: devops-core/git/cheatsheet.md
+      - Workflow: devops-core/git/workflow.md
+      - Ветки: devops-core/git/branches.md
+      - Изменения: devops-core/git/changes.md
+      - Синхронизация: devops-core/git/sync.md
+      - История и откаты: devops-core/git/history.md
+      - Продвинутое: devops-core/git/advanced.md
+      - Хаки: devops-core/git/life-hack.md
+    - Docker:
+      - Обзор: devops-core/docker/index.md
+      - Dockerfile: devops-core/docker/dockerfile.md
+      - Сети: devops-core/docker/network.md
+      - Volume: devops-core/docker/volume.md
+      - Compose: devops-core/docker/compose.md
+  - Infrastructure:
+    - Kubernetes:
+      - Обзор: infra/kubernetes/index.md
+    - CI/CD: 
+      - Обзор: infra/cicd/index.md
+    - Terraform:
+      - Обзор: infra/terra/index.md
+    - Nginx:
+      - Обзор: infra/nginx/index.md
+  - Programming:
+    - Python:
+      - Тест: programming/python/index.md
+  - Data:
+    - Базы данных:
+      - Обзор: data/database/index.md
+    - Excel:
+      - Шпаргалка: data/excel/cheatsheet.md
+
+  
   - Redfish / BMC:
     - Обзор: redfish/index.md
-  - Python:
-    - Тест: python/index.md
-  - Excel:
-    - Шпаргалка: excel/cheatsheet.md
+
+
   
     
