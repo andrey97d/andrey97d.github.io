@@ -105,7 +105,12 @@ nav:
     - тест: how-to/reference.md
     - Обзор: how-to/index.md
     - Настраиваем Nginx: how-to/nginx.md
-    - Создаем свою страницу: how-to/create-website.md
+    - Создаем сайт:
+      - Обзор: how-to/create-website/index.md
+      - VPS: how-to/create-website/vps.md
+      - Домен: how-to/create-website/domain.md
+      - Локальная машина: how-to/create-website/local.md
+      - NGINX: how-to/create-website/nginx.md
   - DevOps Core:
     - Linux :
       - Обзор: devops-core/linux/index.md
