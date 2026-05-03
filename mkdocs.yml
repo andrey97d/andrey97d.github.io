@@ -10,6 +10,7 @@ theme:
   language: ru
   features:
     - navigation.tabs
+    - navigation.tabs.sticky
     - navigation.sections
     - navigation.top
     - navigation.instant
