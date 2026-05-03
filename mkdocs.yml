@@ -8,7 +8,7 @@ site_description: >-
 # Repository
 repo_name: andrey97d/andrey97d.github.io
 repo_url: https://github.com/andrey97d/andrey97d.github.io
-
+edit_uri: edit/main/docs/
   
 copyright: Copyright &copy; 2026 Andrey Deryugin
 
@@ -17,10 +17,13 @@ theme:
   logo: assets/images/connection.png
   language: ru
   features:
+    - content.action.edit
+    - content.action.view
     - navigation.tabs
     - navigation.tabs.sticky
     - navigation.sections
     - navigation.top
+    - navigation.footer
     - navigation.path
     - navigation.expand
     - navigation.instant
@@ -28,9 +31,13 @@ theme:
     - content.code.copy
     - content.code.annotate
     - content.tabs.link
+    - content.action.edit
+    - content.action.view
     - search.suggest
     - search.highlight
     - toc.integrate
+    - announce.dismiss
+
   palette:
     - media: "(prefers-color-scheme)"
       toggle:
@@ -54,19 +61,48 @@ theme:
     text: Roboto
     code: Roboto Mono
 
+
+
+
 markdown_extensions:
   - admonition
   - pymdownx.details
   - pymdownx.superfences
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
+  - attr_list
+  - md_in_html
 
     
 extra:
   generator: false
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/andrey97d
+    - icon: fontawesome/brands/docker
+      link: https://hub.docker.com/u/andreyd997
 
+plugins:
+  - search
+  - git-revision-date-localized:
+      enable_creation_date: true
+  - git-authors
 
 nav:
   - Главная: index.md
   - How-to:
+    - тест: how-to/reference.md
     - Обзор: how-to/index.md
     - Настраиваем Nginx: how-to/nginx.md
     - Создаем свою страницу: how-to/create-website.md

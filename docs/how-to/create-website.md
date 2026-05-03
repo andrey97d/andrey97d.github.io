@@ -17,14 +17,6 @@
 ### 1) Приобретаем VPS
 тут подойдет любая конфигурация (например 1CPU, 1GbRAM, 20Gb SSD)
 
-!!! warning "Chinese, Japanese and Korean characters"
-
-    Reading time computation currently does not take segmentation of Chinese,
-    Japanese and Korean characters into account. This means that the reading
-    time for posts in these languages may be inaccurate. We're planning on
-    adding support in the future. In the meantime, please use the `readtime`
-    front matter property to set the reading time.
-
 ### 2) Приобретаем доменное имя
 выбирайте любое свободное название и затем перейдите в настройки DNS
 Нам нужно создать A запись которая будет связана к ip адресу вашего VPS

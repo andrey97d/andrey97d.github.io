@@ -3,7 +3,7 @@
 Практическая база знаний по DevOps, Linux и инфраструктуре.
 
 [🚀 Начать](how-to/index.md){ .md-button .md-button--primary }
-[📚 Все гайды](docker/index.md){ .md-button }
+[📚 Все гайды](devops-core/docker/index.md){ .md-button }
 
 ---
 
@@ -12,28 +12,28 @@
 ### 🐳 Docker
 Контейнеры, образы, compose
 
-→ [Перейти](docker/index.md)
+→ [Перейти](devops-core/docker/index.md)
 
 ---
 
 ### 🐧 Linux
 Система, сеть, процессы
 
-→ [Перейти](linux/index.md)
+→ [Перейти](devops-core/linux/index.md)
 
 ---
 
 ### ☸️ Kubernetes
 Оркестрация и деплой
 
-→ [Перейти](kubernetes/index.md)
+→ [Перейти](infra/kubernetes/index.md)
 
 ---
 
 ### ⚙️ DevOps
 CI/CD, автоматизация
 
-→ [Перейти](how-to/index.md)
+→ [Перейти](infra/cicd/index.md)
 
 ---
 
