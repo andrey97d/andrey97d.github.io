@@ -1,8 +1,16 @@
 site_name: Engineer's Handbook
 site_url: https://docs.devopslearning.ru
+site_author: Andrey Deryugin
+site_description: >-
+  Моя библиотека знаний.
 
-copyright: >
-  © 2026 Андрей Дерюгин - DevOps Engineer.
+
+# Repository
+repo_name: andrey97d/andrey97d.github.io
+repo_url: https://github.com/andrey97d/andrey97d.github.io
+
+  
+copyright: Copyright &copy; 2026 Andrey Deryugin
 
 theme:
   name: material
@@ -23,6 +31,25 @@ theme:
     - search.suggest
     - search.highlight
     - toc.integrate
+  palette:
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/link
+        name: Switch to light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: black
+      accent: indigo
+      toggle:
+        icon: material/toggle-switch-off
+        name: Switch to system preference
 
 extra:
   generator: false
