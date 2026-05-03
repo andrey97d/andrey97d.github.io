@@ -22,6 +22,7 @@ theme:
     - content.tabs.link
     - search.suggest
     - search.highlight
+    - toc.integrate
 
 extra:
   generator: false
