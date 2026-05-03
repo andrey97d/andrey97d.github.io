@@ -20,7 +20,10 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install mkdocs-material
+          pip install \
+            mkdocs-material \
+            mkdocs-git-revision-date-localized-plugin \
+            mkdocs-git-authors-plugin
 
       - name: Build MkDocs
         run: |
