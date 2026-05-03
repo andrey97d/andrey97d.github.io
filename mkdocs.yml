@@ -12,6 +12,8 @@ theme:
     - navigation.tabs
     - navigation.sections
     - navigation.top
+    - navigation.instant
+    - navigation.instant.prefetch
     - content.code.copy
     - content.code.annotate
     - content.tabs.link
