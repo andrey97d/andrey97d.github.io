@@ -54,6 +54,11 @@ theme:
     text: Roboto
     code: Roboto Mono
 
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+
     
 extra:
   generator: false
