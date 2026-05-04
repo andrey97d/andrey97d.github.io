@@ -109,6 +109,7 @@ nav:
       - Обзор: how-to/create-website/index.md
       - VPS: how-to/create-website/vps.md
       - Домен: how-to/create-website/domain.md
+      - GIT: how-to/create-website/git.md
       - Локальная машина: how-to/create-website/local.md
       - NGINX: how-to/create-website/nginx.md
   - DevOps Core:
